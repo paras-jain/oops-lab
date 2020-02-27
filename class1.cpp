@@ -4,6 +4,7 @@ using namespace std;
 class cylinder{
     int r;
     int h;
+    
             void getdata()
             {
                 cout<<"Enter radius(cm) : ";
