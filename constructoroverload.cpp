@@ -31,7 +31,7 @@ int main()
     float a, b, c;
     cout << "Enter the value of a for area of square \n and value of b & c for area of rectangle: ";
     cin >> a >> b >> c;
-    cons o(a);
+    cons o(a);                                                      //constructr overloading
     cons o1(b,c);
     cout << "Area of square is " << o.display() << endl;
     cout << "Area of rectangle is " << o1.display() << endl;
